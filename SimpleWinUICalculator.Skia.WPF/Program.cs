@@ -1,0 +1,3 @@
+namespace SimpleWinUICalculator.Skia.Gtk
+{
+}
