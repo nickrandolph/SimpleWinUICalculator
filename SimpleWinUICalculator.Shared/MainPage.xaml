@@ -25,7 +25,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid x:Name="rootGrid">
+    <Grid>
         <Ellipse x:Name="ellipse"
                  Fill="{ThemeResource PrimaryColor}"
                  HorizontalAlignment="Left"
@@ -53,8 +53,6 @@
               Padding="16"
               RowSpacing="0"
               ColumnSpacing="0">
-            <!--RowDefinitions="2*,*,*,*,*,*"
-              ColumnDefinitions="*,*,*,*">-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*" />
                 <RowDefinition />
@@ -176,8 +174,6 @@
                     Grid.Column="3"
                     Click="OnSelectOperator" />
 
-
-
             <Button Content="="
                     Grid.Row="5"
                     Grid.Column="3"
@@ -189,9 +185,6 @@
                     HorizontalAlignment="Stretch"
                     Background="Transparent"
                     Grid.ColumnSpan="4" />
-
         </Grid>
     </Grid>
-
-
 </Page>
